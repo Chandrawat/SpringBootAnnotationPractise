@@ -32,7 +32,7 @@ public class App
        
         College college = context.getBean("collegeBean", College.class);
         System.out.println("All methods works \t"+ college);
-        
+        college.test();
         
         ((AbstractApplicationContext) context).close();
     }
