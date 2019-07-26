@@ -2,7 +2,7 @@ package com.saksham.SpringAnnotationPractice;
 
 import org.springframework.stereotype.Component;
 
-@Component("collegeBean")
+//@Component("collegeBean")
 public class College {
 
 	

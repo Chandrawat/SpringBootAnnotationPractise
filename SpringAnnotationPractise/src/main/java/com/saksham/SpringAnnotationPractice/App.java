@@ -30,7 +30,7 @@ public class App
         
         //remote.performAction();
        
-        College college = context.getBean("collegeBean", College.class);
+        College college = context.getBean("collegeBeanMethod", College.class);
         System.out.println("All methods works \t"+ college);
         college.test();
         
